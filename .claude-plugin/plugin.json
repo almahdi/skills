@@ -1,0 +1,13 @@
+{
+  "name": "almahdi-skills",
+  "version": "0.1.0",
+  "description": "Ali Almahdi's agent skills for clear, human writing and engineering.",
+  "author": {
+    "name": "Ali Almahdi"
+  },
+  "repository": "https://github.com/alialmahdi/almahdi-skills",
+  "license": "MIT",
+  "skills": [
+    "./skills/writing/unslop"
+  ]
+}
