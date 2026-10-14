@@ -1,6 +1,12 @@
 ---
 name: unslop
 description: Cut AI tells from any writing. Must always apply to all text the agent produces — docs, comments, commit messages, PRs, emails, everything. Use on every piece of writing, without exception.
+metadata:
+  source: "https://github.com/cursor/plugins/tree/main/pstack/skills/unslop"
+  author: "cursor"
+  adapted-by: "Ali Almahdi (@almahdi)"
+  license: "MIT"
+  category: "writing"
 ---
 
 # Unslop
@@ -80,3 +86,9 @@ Removing patterns is half the job. Sterile, voiceless writing is just as obvious
 29. **Active voice.** Prefer it. Catch "is/are/was/were + past participle" and name the actor: "queries are validated" becomes "the compiler validates queries", "the file is parsed by the loader" becomes "the loader parses the file". Passive is fine only when the actor is unknown or genuinely doesn't matter.
 30. **Cut adverbs, or use a stronger verb.** "runs quickly" becomes "is fast" or the number. "significantly improves" becomes the measured delta. An adverb propping up a weak verb means the verb is wrong.
 31. **Prefer the plain word.** "utilize" becomes "use", "leverage" becomes "use", "facilitate" becomes "help", "numerous" becomes "many", "in the event that" becomes "if". The fancier synonym is rarely clearer.
+32. **Mannered prose.** Metaphor or flourish where a literal phrase exists: aphorisms ("wire it or delete it"), rhetorical fragments for effect, personified code ("the plan holds it"), figurative verbs ("rides along", "stands on"), stock framing phrases. "A dial worth turning" becomes "a parameter worth varying". Say what you mean. Rule 26 covers metaphor nouns.
+33. **Over-compression.** Dropped articles, verbless fragments, symbol-speak, and abbreviations that make the reader decode instead of read. "Parser rejects bad date → exit 2, no write" becomes "The parser rejects a bad date, exits with code 2, and writes nothing." Write whole sentences with their articles and verbs, and spell out arrows and abbreviations.
+
+## Attribution
+
+Originally from [cursor/plugins (pstack/skills/unslop)](https://github.com/cursor/plugins/tree/main/pstack/skills/unslop) under the MIT License. Adapted and modified by Ali Almahdi ([@almahdi](https://github.com/almahdi)).

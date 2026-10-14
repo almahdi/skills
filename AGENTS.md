@@ -152,12 +152,28 @@ Then version:
 npm run version
 ```
 
+## Attribution for Adapted Skills
+
+When bringing in or adapting a skill from an external repository or author:
+
+1. **Frontmatter metadata**: Add `metadata.source`, `metadata.author`, `metadata.adapted-by`, and `metadata.license`:
+   ```yaml
+   metadata:
+     source: "https://github.com/owner/repo"
+     author: "author-or-org"
+     adapted-by: "Ali Almahdi (@almahdi)"
+     license: "MIT"
+   ```
+2. **Attribution section**: Add an `## Attribution` section at the end of `SKILL.md` linking to the original repository, noting the license and your modification credits.
+3. **README listing**: Reference the upstream source link in `README.md` alongside the skill entry.
+
 ## Checklist for New Skills
 
 - [ ] Skill directory created at `skills/<bucket>/<name>/`
 - [ ] `SKILL.md` has valid frontmatter (`name`, `description`)
 - [ ] `description` includes trigger phrases (if model-invoked)
 - [ ] Body is specific, actionable, and well-structured
+- [ ] Attribution added to frontmatter, body, and README (if adapted from external source)
 - [ ] Path added to `.claude-plugin/plugin.json`
 - [ ] `agents/openai.yaml` created (if user-invoked)
 - [ ] Supporting files added (if needed)
