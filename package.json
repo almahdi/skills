@@ -5,7 +5,7 @@
   "description": "Ali Almahdi's agent skills for clear, human writing and engineering.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alialmahdi/almahdi-skills"
+    "url": "https://github.com/almahdi/skills"
   },
   "license": "MIT",
   "scripts": {

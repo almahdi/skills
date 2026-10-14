@@ -1,12 +1,12 @@
 {
-  "name": "alialmahdi",
+  "name": "almahdi",
   "owner": {
     "name": "Ali Almahdi"
   },
-  "description": "Ali Almahdi's agent skills for clear, human writing and engineering.",
+  "description": "Ali Almahdi's agent skills for clear, human writing, productivity, and engineering.",
   "plugins": [
     {
-      "name": "almahdi-skills",
+      "name": "skills",
       "source": "./",
       "description": "Agent skills for cutting AI patterns from writing and adding human voice.",
       "category": "writing",

@@ -124,7 +124,7 @@ The repo works with `npx skills` automatically if:
 
 Test with:
 ```bash
-npx skills add alialmahdi/almahdi-skills --list
+npx skills add almahdi/skills --list
 ```
 
 ## Supporting Files

@@ -5,10 +5,11 @@
   "author": {
     "name": "Ali Almahdi"
   },
-  "repository": "https://github.com/alialmahdi/almahdi-skills",
+  "repository": "https://github.com/almahdi/skills",
   "license": "MIT",
   "skills": [
     "./skills/writing/unslop",
-    "./skills/productivity/i-have-adhd"
+    "./skills/productivity/i-have-adhd",
+    "./skills/productivity/ember"
   ]
 }
