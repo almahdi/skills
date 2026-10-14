@@ -1,6 +1,6 @@
 # Ali Almahdi's Agent Skills
 
-[![skills.sh](https://skills.sh/b/almahdi/skills)](https://skills.sh/almahdi/skills)
+[![skills.sh](https://img.shields.io/badge/skills.sh-almahdi%2Fskills-000000?logo=vercel&logoColor=white)](https://skills.sh/almahdi/skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Practical skills for how I actually work with AI every day.**
