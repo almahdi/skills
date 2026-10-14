@@ -27,6 +27,7 @@ Or install individual skills:
 
 ```bash
 npx skills add almahdi/skills --skill unslop
+npx skills add almahdi/skills --skill clean-code
 npx skills add almahdi/skills --skill orchestrate
 npx skills add almahdi/skills --skill ember
 npx skills add almahdi/skills --skill i-have-adhd
@@ -46,6 +47,7 @@ npx skills add almahdi/skills --skill i-have-adhd
 
 ### Engineering
 
+- **[clean-code](./skills/engineering/clean-code/SKILL.md)**. Enforces YAGNI, KISS, DRY, and SOLID in strict priority order so simplicity gates abstraction. Auto-activates on coding tasks with `lite`, `full`, and `ultra` intensity levels so you get clean boundaries and single-responsibility code without single-implementation interfaces or enterprise bloat.
 - **[orchestrate](./skills/engineering/orchestrate/SKILL.md)**. Turns the main agent into a pure orchestrator and judge across any harness. It plans with you, breaks large tasks into small atomic chunks to prevent context rot, and drives an `Implementer -> Reviewer/Tester -> Judge` subagent loop until every phase is verified.
 
 ### Productivity
@@ -58,6 +60,7 @@ npx skills add almahdi/skills --skill i-have-adhd
 | Skill | Trigger | How to use |
 | :--- | :--- | :--- |
 | **[`unslop`](./skills/writing/unslop/SKILL.md)** | Automatic (model-invoked) | Always active on all text output. No command needed. |
+| **[`clean-code`](./skills/engineering/clean-code/SKILL.md)** | Automatic + `/clean-code` | Auto-activates on coding tasks. Use `/clean-code lite\|full\|ultra` to switch intensity, or say `"stop clean-code"` to turn it off. |
 | **[`orchestrate`](./skills/engineering/orchestrate/SKILL.md)** | Manual (`/orchestrate`) | Type `/orchestrate` to run the subagent implementation and review loop. Say `"stop orchestrating"` to turn it off. |
 | **[`ember`](./skills/productivity/ember/SKILL.md)** | Automatic + `/ember` | Auto-ignites when `.memory/` exists. Run `/ember init` to bootstrap a repo, `/ember status` to check active work, or `/ember save` to checkpoint. |
 | **[`i-have-adhd`](./skills/productivity/i-have-adhd/SKILL.md)** | Manual (`/i-have-adhd`) | Type `/i-have-adhd` to turn on action-first mode for the session. Say `"stop adhd mode"` to turn it off. |

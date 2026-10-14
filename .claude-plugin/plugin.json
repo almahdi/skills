@@ -9,6 +9,7 @@
   "license": "MIT",
   "skills": [
     "./skills/writing/unslop",
+    "./skills/engineering/clean-code",
     "./skills/engineering/orchestrate",
     "./skills/productivity/i-have-adhd",
     "./skills/productivity/ember"
