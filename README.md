@@ -27,6 +27,7 @@ Or install individual skills:
 
 ```bash
 npx skills add almahdi/skills --skill unslop
+npx skills add almahdi/skills --skill orchestrate
 npx skills add almahdi/skills --skill ember
 npx skills add almahdi/skills --skill i-have-adhd
 ```
@@ -43,6 +44,10 @@ npx skills add almahdi/skills --skill i-have-adhd
 
 - **[unslop](./skills/writing/unslop/SKILL.md)**. Strips AI tells from any text and puts a real human voice back in. It runs automatically on everything the agent writes: docs, code comments, commit messages, PRs, and emails. Adapted from [cursor/plugins](https://github.com/cursor/plugins/tree/main/pstack/skills/unslop).
 
+### Engineering
+
+- **[orchestrate](./skills/engineering/orchestrate/SKILL.md)**. Turns the main agent into a pure orchestrator and judge across any harness. It plans with you, breaks large tasks into small atomic chunks to prevent context rot, and drives an `Implementer -> Reviewer/Tester -> Judge` subagent loop until every phase is verified.
+
 ### Productivity
 
 - **[ember](./skills/productivity/ember/SKILL.md)**. Persistent, repository-backed memory and surgical execution discipline for coding and personal assistants. It maintains `.agent/` and `.memory/` inside your repo so your assistant tracks active work, architectural decisions, and daily sessions using plain Markdown and Git.
@@ -53,6 +58,7 @@ npx skills add almahdi/skills --skill i-have-adhd
 | Skill | Trigger | How to use |
 | :--- | :--- | :--- |
 | **[`unslop`](./skills/writing/unslop/SKILL.md)** | Automatic (model-invoked) | Always active on all text output. No command needed. |
+| **[`orchestrate`](./skills/engineering/orchestrate/SKILL.md)** | Manual (`/orchestrate`) | Type `/orchestrate` to run the subagent implementation and review loop. Say `"stop orchestrating"` to turn it off. |
 | **[`ember`](./skills/productivity/ember/SKILL.md)** | Automatic + `/ember` | Auto-ignites when `.memory/` exists. Run `/ember init` to bootstrap a repo, `/ember status` to check active work, or `/ember save` to checkpoint. |
 | **[`i-have-adhd`](./skills/productivity/i-have-adhd/SKILL.md)** | Manual (`/i-have-adhd`) | Type `/i-have-adhd` to turn on action-first mode for the session. Say `"stop adhd mode"` to turn it off. |
 

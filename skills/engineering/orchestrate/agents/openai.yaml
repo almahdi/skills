@@ -1,0 +1,6 @@
+interface:
+  display_name: "Orchestrate"
+  short_description: "Coordinate and judge an Implementer -> Reviewer/Tester subagent loop"
+
+policy:
+  allow_implicit_invocation: false
